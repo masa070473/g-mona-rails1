@@ -1,0 +1,179 @@
+body{
+  background-color: black;
+  margin: 0 auto;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.header-menu {
+  font-weight: bold;
+  padding-top: 15px;
+  position: fixed;
+  z-index: 10;
+  height:70px;
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0));
+  width:100vw;
+}
+
+.header-top {
+  color: white;
+  font-size: 50px;
+  left: 12px;
+}
+
+.header-menu li {
+  position: fixed;
+  top: 6%;
+}
+
+.header-booking{
+  list-style: none;
+  color: white;
+  float: left;
+  font-size: 40px;
+  right: 47%;
+
+}
+
+.header-login{
+  list-style: none;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  float: left;
+  right: 56%;
+}
+
+.header-sign-up{
+  list-style: none;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  float: left;
+  right: 37%;
+}
+
+.header-garally {
+  list-style: none;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  float: left;
+  right: 24%;
+}
+
+.header-food {
+  list-style: none;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  float: left;
+  right: 13%;
+}
+
+.header-contact{
+  list-style: none;
+  color: white;
+  right: 3%;
+  padding: 15px;
+  font-size: 20px;
+  float: left;
+}
+
+main{
+  padding-top: 200px;
+  text-align: center;
+}
+
+.email{
+  padding: 30px;
+  font-size: 20px;
+}
+
+#email{
+  width: 180px;
+  height: 20px;
+}
+
+.text1{
+  padding: 30px;
+  font-size: 20px;
+}
+
+#text1{
+  width: 150px;
+  height: 20px;
+}
+
+.text2{
+  padding: 30px;
+  font-size: 20px;
+}
+
+#text2{
+  width: 200px;
+}
+
+.submit{
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.footer-imgs{
+text-align: center;
+display:inline-block;
+padding: 0 30px 0 30px;
+}
+
+.footer-img1{
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  float: left;
+}
+
+.footer-img2{
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  float: left;
+}
+
+.footer-space{
+  height: 20px;
+}
+
+.icon{
+  margin-top: 30px;
+}
+
+h3{
+  margin-top: 0;
+}

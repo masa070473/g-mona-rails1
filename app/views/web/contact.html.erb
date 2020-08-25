@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style4.css">
+  <%= stylesheet_link_tag "style2", :media => "all" %>
+  <script src="https://kit.fontawesome.com/473402f52c.js" crossorigin="anonymous"></script>
+  <title>Contact</title>
+</head>
+<body>
+  <header>
+    <div class="header-menu">
+      <ul>
+        <a href="https://gmona.herokuapp.com" class="header-top">G-mona</a>
+        <%# <li class="header-login"><a href="#">Login</a></li>
+        <li class="header-booking"><a href="#">予約</a></li>
+        <li class="header-sign-up"><a href="#">Sign-up</a></li> %>
+        <li class="header-garally"><a href="https://gmona.herokuapp.com/web/garally">Garally</a></li>
+        <li class="header-food"><a href="https://gmona.herokuapp.com/web/food">FoodMenu</a></li>
+        <li class="header-contact"><a href="https://gmona.herokuapp.com/web/contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <form action="" method="" name="contact">
+      <div class="email">
+        <label for="email">メールアドレス</label>
+        <br>
+        <input type="email" id="email">
+        <br>
+      </div>
+
+      <div class="text1">
+        <label for="text1">題名</label>
+        <br>
+        <input type="text" id="text1">
+        <br>
+      </div>
+
+      <div class="text2">
+        <label for="text2">問い合わせ内容</label>
+        <br>
+        <textarea name="" id="text2" cols="20" rows="5"></textarea>
+        <br>
+      </div>
+      <button class="submit" type="submit">送信</button>
+    </form>
+  </main>
+  <footer>
+
+    <h2>
+          ACCESS
+        </h2>
+    <p>
+          〒542-0083 大阪府大阪市中央区東心斎橋１丁目１８−１４ ミドウ心斎橋ビル
+          1階
+        </p>
+    <!-- <div class="footer-imgs">
+
+      <img class="footer-img2" src="https://school.oohara.jp/masa/map2.png">
+      <img class="footer-img1" src="https://school.oohara.jp/masa/map.png">
+
+    </div> -->
+
+    <div class="icon">
+      <span class="fas fa-glass-martini-alt fa-3x"></span>
+    </div>
+
+    <h3>G-mona</h3>
+    <a href="#" class="btn facebook">
+      <span class="fab fa-facebook fa-2x"></span>
+    </a>
+
+    <a href="#" class="btn instagram">
+      <span class="fab fa-instagram fa-2x"></span>
+    </a>
+    <div class="footer-space"></div>
+  </footer>
+</body>
+</html>
