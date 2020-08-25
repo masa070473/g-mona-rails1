@@ -7,4 +7,7 @@ class WebController < ApplicationController
 
   def food
   end
+
+  def contact
+  end
 end
