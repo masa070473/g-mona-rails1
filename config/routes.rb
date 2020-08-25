@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "web#top"
   get 'web/top'
 
   get 'web/garally'
