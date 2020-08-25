@@ -1,0 +1,197 @@
+body{
+  background-color: black;
+  margin: 0 auto;
+  font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
+  box-sizing: border-box;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.header-menu {
+  font-weight: bold;
+  padding-top: 15px;
+  position: fixed;
+  z-index: 10;
+  height:70px;
+  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0));
+  width:100vw;
+}
+
+.header-top {
+  color: white;
+  font-size: 50px;
+  left: 12px;
+}
+
+.header-menu li {
+  list-style: none;
+  position: fixed;
+  font-size: 20px;
+  top: 6%;
+}
+
+.header-garally {
+  list-style: none;
+  color: white;
+  padding: 15px;
+  float: left;
+  right: 24%;
+}
+
+.header-food {
+  list-style: none;
+  color: white;
+  padding: 15px;
+  float: left;
+  right: 13%;
+}
+
+.header-contact{
+  list-style: none;
+  color: white;
+  right: 3%;
+  padding: 15px;
+  float: left;
+}
+
+.back-img{
+  height: 1000px;
+}
+
+.image{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  opacity: 0.4;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  color: #5e6f84;
+  padding: 60px 0;
+}
+
+.slide-title {
+  font-size: 80px;
+  margin-bottom: 30px;
+  height: 100px;
+  text-align: center;
+  color: red;
+}
+
+
+
+.change-btn-wrapper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.slides {
+  padding: 0;
+}
+
+.slide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.slide img {
+  width: 700px;
+  height: 600px;
+  border-radius: 5px;
+}
+
+.index-btn-wrapper {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.index-btn {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  width: 40px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.index-btn:hover {
+  color: #fff;
+  background-color: #5cabd0;
+}
+
+.image2{
+  width: 95%;
+  height: 400px;
+  margin: 0 auto;
+  opacity: 0.3;
+  display:flex;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.footer-imgs{
+text-align: center;
+display:inline-block;
+padding: 0 30px 0 30px;
+}
+
+.footer-img1{
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  float: left;
+}
+
+.footer-img2{
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  float: left;
+}
+
+.footer-space{
+  height: 20px;
+}
+
+.icon{
+  margin-top: 30px;
+}
+
+h3{
+  margin-top: 0;
+}
