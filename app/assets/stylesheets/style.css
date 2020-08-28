@@ -1,70 +1,64 @@
 
-
-body {
-  background-color: black;
-  margin: 0 auto;
-  font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
-  box-sizing: border-box;
+.top-text {
+  text-align: center;
+  font-size: 90px;
+  color: red;
+  height: 300px;
+  line-height: 300px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
+.top {
+  max-width: 1000vw;
+  height: 1000px;
+  margin: 1px 1px;
+  background-image: url("https://school.oohara.jp/masa/top.jpg");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-a:hover {
-  text-decoration: none;
-  cursor: pointer;
-  color: white;
+.garally {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  margin: 100px 100px;
 }
 
-.header-menu {
-  font-weight: bold;
-  padding-top: 15px;
-  position: fixed;
-  z-index: 10;
-  height:70px;
-  background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0));
-  width:100vw;
+.top1 {
+  height: 1000px;
+  background-image: url("https://school.oohara.jp/masa/top1.jpg");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.header-top {
-  color: white;
-  font-size: 50px;
-  left: 12px;
+.food{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  margin: 100px 100px;
 }
 
-.header-menu li {
-  list-style: none;
-  position: fixed;
-  font-size: 20px;
-  top: 6%;
+.food-img {
+  height: 1000px;
+  background-image: url("https://school.oohara.jp/masa/food2.jpg");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.header-garally {
-  list-style: none;
-  color: white;
-  padding: 15px;
-  float: left;
-  right: 24%;
-}
 
-.header-food {
-  list-style: none;
-  color: white;
-  padding: 15px;
-  float: left;
-  right: 13%;
-}
 
-.header-contact{
-  list-style: none;
-  color: white;
-  right: 3%;
-  padding: 15px;
-  float: left;
-}
-
+/* --------------------- */
+@media(min-width:700px){
 .top-text {
   text-align: center;
   font-size: 90px;
@@ -119,101 +113,62 @@ a:hover {
   background-attachment: fixed;
   background-position: center;
 }
+}
 
-footer {
+/* ----------------------------- */
+@media(min-width:800px){
+.top-text {
   text-align: center;
-  color: white;
+  font-size: 90px;
+  color: red;
+  height: 300px;
+  line-height: 300px;
 }
 
-h2 {
-  font-size: 100px;
-  height: 100px;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 20px;
-}
-
-.footer-imgs{
-text-align: center;
-display:inline-block;
-padding: 0 30px 0 30px;
-}
-
-.footer-img1{
-  width: 600px;
-  height: 400px;
-  margin: 10px;
-  float: left;
-}
-
-.footer-img2{
-  width: 600px;
-  height: 400px;
-  margin: 10px;
-  float: left;
-}
-
-.footer-space{
-  height: 20px;
-}
-
-.icon{
-  margin-top: 30px;
-}
-
-h3{
-  margin-top: 0;
-}
-
-.menu-btn{
-  position: fixed;
-  top: 55px;
-  right: 40px;
-  z-index: 2;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #333;
-  color: #fff;
-}
-
-.menu-btn:hover{
-  cursor: pointer;
-  color: white;
-}
-
-.menu{
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  width: 100vw;
-  height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: black;
-}
-
-.menu__item{
-  width: 100%;
-  height: auto;
-  padding: .5em 1em;
+.top {
+  height: 1000px;
+  margin: 1px 1px;
+  background-image: url("https://school.oohara.jp/masa/top.jpg");
+  background-size: cover;
   text-align: center;
-  color: #fff;
-  box-sizing: border-box;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.menu{
-  transform: translateX(100vw);
-  transition: all .3s linear;
+.garally {
+  display: block;
+  text-align: center;
+  font-size: 90px;
+  color: red;
+  margin: 100px 100px;
 }
 
-.menu.is-active{
-  transform: translateX(0);
+.top1 {
+  height: 1000px;
+  background-image: url("https://school.oohara.jp/masa/top1.jpg");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.food{
+  display: block;
+  text-align: center;
+  font-size: 90px;
+  color: red;
+  margin: 100px 100px;
+}
+
+.food-img {
+  height: 1000px;
+  background-image: url("https://school.oohara.jp/masa/food2.jpg");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+}
 }
